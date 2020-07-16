@@ -39,7 +39,14 @@ const Tweet: React.FC = () => {
 
           <Description>
             Todo o código do projeto tá la no meu{' '}
-            <a href="https://github.com/paulohdelia">Github</a> ✨
+            <a
+              href="https://github.com/paulohdelia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>{' '}
+            ✨
           </Description>
 
           <ImageContent />

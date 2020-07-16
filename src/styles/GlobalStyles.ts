@@ -27,6 +27,11 @@ export default createGlobalStyle`
     background: var(--primary);
   }
 
+  a {
+      text-decoration: none;
+      color: var(--twitter);
+  }
+
   :root {
     --primary: #000;
     --secondary: #15181C;

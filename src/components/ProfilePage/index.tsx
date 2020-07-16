@@ -26,8 +26,22 @@ const ProfilePage: React.FC = () => {
         <h2>@paulohdelia</h2>
 
         <p>
-          Find me at{' '}
-          <a href="https://www.linkedin.com/in/paulodelia/">Linkedin</a>
+          Links to my{' '}
+          <a
+            href="https://github.com/paulohdelia"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>{' '}
+          and{' '}
+          <a
+            href="https://www.linkedin.com/in/paulodelia/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
         </p>
 
         <ul>

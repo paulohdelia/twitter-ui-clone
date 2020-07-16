@@ -59,11 +59,6 @@ export const ProfileData = styled.div`
   > p {
     font-size: 15px;
     margin-top: 11px;
-
-    > a {
-      text-decoration: none;
-      color: var(--twitter);
-    }
   }
   > ul {
     list-style: none;
