@@ -1,44 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+UI Clone - Twitter Responsive
+</h1>
 
-## Available Scripts
+<p align="center">Responsive Twitter UI Clone (partial) for study purposes.</p>
+<p align="center">Deployed <a href="https://twitter-ui-clone.netlify.app/">here</a>.
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://github.com/paulohdelia">
+    <img src="https://img.shields.io/badge/author-paulodelia-important?style=flat-square" alt="author">
+  </a>
+  <img src="https://img.shields.io/github/languages/count/paulodelia/twitter-ui-clone?color=important&style=flat-square">
+</p>
 
-### `yarn start`
+<hr>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Techs
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [x] React.js
+- [x] Styled Components
+- [x] TypeScript
 
-### `yarn test`
+## Responsiveness
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3 align="center">Mobile</h3>
+<img align="center" src=".github/mobile320.png"/>
 
-### `yarn build`
+<h3 align="center">Tablet</h3>
+<img align="center" src=".github/tablet768.png"/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3 align="center">Laptop Small Screen</h3>
+<img align="center" src=".github/laptop1058.png"/>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<h3 align="center">Laptop Normal/Large Screen</h3>
+<img align="center" src=".github/laptop1440.png"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Sticky Box Feature
 
-### `yarn eject`
+<img align="center" src=".github/sticky-box.gif"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Run `npm install` or `yarn install`.<br />
+2. Run `yarn start` and access `http://localhost:3000`.<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Acknowledgments
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This Twitter clone was made following the video [Twitter Responsivo com ReactJS | UI Clone](https://www.youtube.com/watch?v=K-8z_4xvT3o) by [Guilherme Rodz](https://github.com/guilhermerodz) from [Rocketseat](https://github.com/Rocketseat)
