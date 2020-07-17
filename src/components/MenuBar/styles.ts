@@ -42,7 +42,7 @@ export const MenuButton = styled.button`
   align-items: center;
   flex-shrink: 0;
 
-  padding: 8.25px 0;
+  padding: 8px 8px;
   outline: 0;
 
   > span {
@@ -55,7 +55,7 @@ export const MenuButton = styled.button`
       margin-left: 19px;
 
       font-weight: bold;
-      font-size: 19px;
+      font-size: 17px;
     }
   }
 
@@ -109,14 +109,19 @@ const iconCSS = css`
 `;
 
 export const Logo = styled(Twitter)`
-  height: 41px;
-  width: 41px;
+  height: 37px;
+  width: 37px;
 
   > path {
     fill: var(--twitter);
   }
 
   margin-bottom: 20px;
+
+  @media (min-width: 1280px) {
+    position: relative;
+    left: 6px;
+  }
 `;
 export const HomeIcon = styled(Home)`
   ${iconCSS}
