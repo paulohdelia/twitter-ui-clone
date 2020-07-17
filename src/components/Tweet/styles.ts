@@ -8,7 +8,10 @@ export const Container = styled.div`
 
   padding: 14px 16px;
 
-  border-bottom: 1px solid var(--outline);
+  :not(:last-of-type) {
+    border-bottom: 1px solid var(--outline);
+  }
+
   max-width: 100%;
 `;
 

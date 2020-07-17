@@ -8,8 +8,15 @@ const Feed: React.FC = () => {
   return (
     <Container>
       <Tab>Tweets</Tab>
+      {/* <Tab>Tweets e respostas</Tab>
+      <Tab>Mídia</Tab>
+      <Tab>Curtidas</Tab> */}
 
       <Tweets>
+        <Tweet />
+        <Tweet />
+        <Tweet />
+        <Tweet />
         <Tweet />
         <Tweet />
       </Tweets>
