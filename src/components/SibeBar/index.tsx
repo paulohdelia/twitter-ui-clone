@@ -1,4 +1,5 @@
 import React from 'react';
+import StickyBox from 'react-sticky-box';
 
 import {
   Container,
@@ -8,24 +9,42 @@ import {
   Body,
 } from './styles';
 
+import List from '../List';
+import FollowSuggestion from '../FollowSuggestion';
+import News from '../News';
+
 const SibeBar: React.FC = () => {
   return (
     <Container>
       <SearchWrapper>
         <SearchInput placeholder="Buscar no Twitter" />
+        <SearchIcon />
       </SearchWrapper>
-      <SearchIcon />
 
-      <Body>
-        <p>
-          {`Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officia
-          incidunt atque maiores sint ipsum iusto quo tenetur! Non, praesentium!
-          Ullam veniam ipsam ab nam fugiat laborum vel dicta commodi?`.repeat(
-            20
-          )}
-          ;
-        </p>
-      </Body>
+      <StickyBox>
+        <Body>
+          <List
+            title="Quem seguir"
+            elements={[
+              <FollowSuggestion name="Mateus Barbosa" nickname="@ohtaldopet" />,
+              <FollowSuggestion name="Ralphyx" nickname="@Ralph_Filho" />,
+              <FollowSuggestion name="MUCHO" nickname="@fogmug" />,
+            ]}
+          />
+          <List
+            title="Talvez você curta"
+            elements={[<News />, <News />, <News />]}
+          />
+          <List
+            title="Talvez você curta"
+            elements={[<News />, <News />, <News />]}
+          />
+          <List
+            title="Talvez você curta"
+            elements={[<News />, <News />, <News />]}
+          />
+        </Body>
+      </StickyBox>
     </Container>
   );
 };
